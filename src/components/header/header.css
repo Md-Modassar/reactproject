@@ -1,0 +1,62 @@
+.header{
+    position: relative;
+    display: flex;
+    height: 15vh;
+    width: 100%;   
+}
+.header ul{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+  
+}
+.header ul .list{
+    list-style: none;
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background: white;
+}
+.header ul .list a{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.header ul .list a span{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    z-index: 2;
+    color: black;
+}
+.header ul .list.active a span{
+    color: white;
+}
+.image-container{
+    position: absolute;
+    display: flex;
+    height: 200px;
+    width: 235px;
+   
+  
+}
+.image-container img{
+  
+    height: 100%;
+    width: 100%;
+}
+.sticker{
+    position: absolute;
+    z-index: 100;
+    left: 45%;
+    top: 12%;
+}
+

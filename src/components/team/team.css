@@ -1,0 +1,58 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    background: url('https://media.gettyimages.com/id/1182508676/photo/colorful-cupcakes-with-candy-sprinkles.jpg?s=2048x2048&w=gi&k=20&c=-TA7d3NtEkijxRe1lKBu5eSwsAQKRRxtuY_zVnux0cw=');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: start;
+   align-items: center;
+   justify-content: center;
+}
+.t-titel{
+    font-size: 100px;
+    font-weight: 400;
+    color: rgb(253, 144, 162);
+    font-family: "Pacifico", cursive;
+}
+
+.t-card-container{
+    display: flex;
+    gap: 100px;
+}
+.team-card{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.team-card span:nth-child(1){
+    display: flex;
+    height: 50%;
+    width: 80%;
+    background: gray;
+    border: 10px solid palevioletred;
+    border-radius: 50%;
+}
+.team-card span:nth-child(2){
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-card span:nth-child(3){
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(253, 89, 116);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-card span:nth-child(1) img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
